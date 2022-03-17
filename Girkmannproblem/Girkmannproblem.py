@@ -159,7 +159,7 @@ if solver == 'direct':
 
     print('solve matrix')
     t0 = dtimer()
-    if len(FF)<100:
+    if len(FF)<1000:
         x = spsolve(AA,FF)
     elif len(FF)<10000000:
         import transplant
