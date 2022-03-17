@@ -1,0 +1,2 @@
+# Girkmannproblem
+To solve Girkmannproblem
